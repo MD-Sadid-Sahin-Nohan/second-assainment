@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 .nav-container{
     display: flex;
@@ -9,7 +10,6 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     min-height: 100px;
     background-color: antiquewhite;
-
 }
 .nav-first{
     display: flex;
@@ -22,11 +22,41 @@
     gap: 20px;
     text-decoration: none;
 }
+.nav-title, h1{
+    font-size: 2rem;
+}
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0px;
+}
+.but{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    gap: 7px;
+    padding: 10px;
+    
+}
+.but-1{
+    border-radius: 48px;
+    background-color:#ff92b8;
+    color: white;
+    font-size: 17px;
+}
+.but-1:hover{
+    color: black;
+}
+.but-2:hover{
+    color: black;
+}
+.but-2{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+    font-size: 17px;
 }
 .title-description{
     font-size: 2rem;
@@ -50,6 +80,7 @@
     text-align: center;
     margin-left: 10%;
     padding-top: 50px;
+    overflow: visible;
 }
 .third-container{
     text-align: center;
@@ -109,4 +140,69 @@
 }
 .fouth-text{
     padding-bottom: 50px;
+}
+.button-one, button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    width: 220px;
+    border: none;
+    
+}
+
+.fifth-container ul{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    padding-left: 150px;
+}
+.button-two{
+    margin-left: 100px;
+    border: none;
+    border-radius: 30px ;
+}
+
+.button-one:hover{
+    border: 2px solid #ff92b8;
+    color: #ff92b8;
+}
+
+.button-two:hover{
+    border: 2px solid#ff92b8;
+}
+button:hover{
+    color: #ff92b8;
+    cursor: pointer;
+}
+
+button{
+    padding: 7px;
+}
+.footer-titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.footer-container{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    
+    
+}
+.footer-link-list, ul, li, a{
+    justify-content: center;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    
+}
+.footer-icon img{
+    background-color: white;
+    
 }
