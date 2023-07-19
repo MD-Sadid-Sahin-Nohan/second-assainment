@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .nav-container{
@@ -85,13 +86,72 @@
 .one{
     position: relative;
 }
-.overlay{
+.overlay-1{
     position: absolute;
-    left: 350px;
-    top: 1220px;
+    left: 210px;
+    top: 1033px;
     opacity: 0;
+    height: 205px;
+    padding-top: 10%;
+    /* border: 1px solid white; */
+    width: 340px;
+    font-size: 2rem;
+    color: black
 }
-
+.overlay-1:hover{
+    opacity: 100%;
+}
+.overlay-2{
+    position: absolute;
+    left: 610px;
+    top: 1033px;
+    opacity: 0;
+    height: 205px;
+    padding-top: 10%;
+    /* border: 1px solid white; */
+    width: 340px;
+    font-size:2rem;
+    border-radius:5px;
+    color: black
+}
+.overlay-2:hover{
+    opacity: 100%;
+}
+.overlay-3{
+    position: absolute;
+    left: 950px;
+    top: 1033px;
+    opacity: 0;
+    height: 205px;
+    padding-top: 10%;
+    /* border: 1px solid white; */
+    width: 340px;
+    font-size:2rem;
+    border-radius:5px;
+    color:  black
+}
+.overlay-3:hover{
+    opacity: 100%;
+}
+.overlay-4{
+    position: absolute;
+    left: 1320px;
+    top: 1033px;
+    opacity: 0;
+    height: 205px;
+    padding-top: 10%;
+    /* border: 1px solid white; */
+    width: 340px;
+    font-size:2rem;
+    border-radius:5px;
+    color: black
+}
+.overlay-4:hover{
+    opacity: 100%;
+}
+/* .overlay-1, img{
+    height: 50px;
+} */
 .third-container{
     text-align: center;
     padding-top: 50px;
@@ -103,15 +163,10 @@
 .third-description{
     font-size: 1.5rem;
 }
-.pic-1 img:hover {
+.pic-1 img:hover{
     opacity: 0.2;
-    
-    
-    
 }
-.overlay:hover{
-    opacity: 5;
-}
+
 .pic-2 img:hover {
     opacity: 0.2;
    
