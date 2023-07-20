@@ -281,9 +281,9 @@ button{
         flex-direction: column;
         text-align: center;
     }
-    .nav-description, ul, a{
-        flex-direction: column;
-    }
+   .topone{
+    margin-left: 130%;
+   }
     .container{
         flex-direction: column;
     }
@@ -303,9 +303,7 @@ button{
     }
     .fifth-container ul{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        
-        
+        grid-template-columns: repeat(3, 1fr);      
     }
     .fifth-container ul li{
         margin-left: -10px;     
